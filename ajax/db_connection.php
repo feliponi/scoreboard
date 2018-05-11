@@ -6,7 +6,7 @@ $user = "root"; // MySQL user. eg. root ( if your on localserver)
 $password = "Passw0rd"; // MySQL user password  (if password is not set for your root user then keep it empty )
 $database = "pontos_desafio"; // MySQL Database name
 
-// Connect to MySQL Database teste
+// Connect to MySQL Database teste fe
 $con = new mysqli($host, $user, $password, $database);
 
 // Check connection
